@@ -2,4 +2,9 @@ Serie_02a.pdf
 Serie_02b.pdf
 *checkpoint.ipynb
 *.csv
+*.zip
+*.png
 __MACOSX
+.ipynb_checkpoints
+__pycache__
+
