@@ -82,4 +82,5 @@ class PR_CNN(nn.Module):
         """
         x = self.conv1(x)
         x = self.fc(x)
+        
         return x
