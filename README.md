@@ -32,3 +32,25 @@ validation.
 - Access to your github so that we can inspect your code.
 - Plot showing the error-rate on the training and the validation set with respect to the training epochs.
 - Test accuracy with the best parameters found during cross-validation.
+
+### Exercise 02_c - CNN
+### Task
+In this exercise, you should train and test a basic CNN on the MNIST dataset.
+We recommend you use the DeepDIVA framework, which is build on top of PyTorch. Complete the provided CNN implementation. Use the provided training set to train a CNN.
+Apply the trained CNN to classify the test set. Perform validation:
+• Optimize learning rate (typically in the range [0.001, 0.1]).
+• Optimize number of training iterations. Plot a graph showing the accuracy on the training
+set and the validation set, respectively, with respect to the training epochs.
+• Perform the random initialization several times and choose the best network during
+validation.
+
+### Exercise 02_d - Permutated MNIST
+Use the provided training set (permutated MNIST) to train your MLP (from task 2b) and
+your CNN (from task 2c). Apply the both trained models to classify the test set (permutated
+MNIST). Compare the results with the results from the normal MNIST. Is there a difference
+from before? If yes, why? Try to explain what you observe with your own words and the reason
+of this happening.
+
+
+
+
